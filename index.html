@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html style="scroll-behavior: smooth;">
+
+<head>
+  <title>Bureau RJ</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="w3schools.com_w3css_4_w3.css">
+  <link rel="stylesheet" href="w3schools.com_lib_w3-theme-black.css">
+  <link rel="stylesheet" href="cdnjs.cloudflare.com_ajax_libs_font-awesome_4.7.0_css_font-awesome.min.css">
+</head>
+
+<body id="myPage">
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-theme-d2 w3-left-align">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2"
+        href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+      <a href="#" class="w3-bar-item w3-button w3-white"><i class="fa fa-home w3-margin-right"></i>Home</a>
+      <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Wie ben ik</a>
+      <a href="#expertises" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Mijn expertises</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+      <a href="#team" class="w3-bar-item w3-button">Wie ben ik</a>
+      <a href="#expertises" class="w3-bar-item w3-button">Mijn expertises</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+
+  <!-- Image Header -->
+  <div class="w3-display-container w3-animate-opacity" style="
+position: relative;
+height: 50vh;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;">
+    <img src="snelweg.jpg" alt="background"
+      style="width:100%;min-height:350px;max-height:600px;object-fit:cover;filter:blur(2px);position: absolute;">
+    <h1 class="w3-container w3-margin-bottom w3-center" style="
+  position: absolute;
+  color: white;
+  background: #0074bd;
+">Bureau RJ</h1>
+  </div>
+
+  <!-- Team Container -->
+  <div class="w3-container w3-padding-64 w3-center" id="team" style="padding-left: 10%; padding-right: 10%;">
+    <h2 style="
+    text-decoration: underline;
+    text-decoration-color: #0074bd;
+">Welkom bij Buro RJ: Uw Expert in Bewegwijzering </h2>
+    <h4 style="
+    font-weight: bold;
+">Ontdek onze jarenlange ervaring en expertise in het ontwerpen en implementeren
+      van zowel tijdelijke als permanente bewegwijzeringssystemen.</h4>
+    <p>Als toonaangevende verkeersspecialist zijn we gespecialiseerd in bewegwijzering,
+      een essentieel element voor een soepele en veilige verkeersstroom. Met een
+      bewezen staat van dienst in zowel de publieke als de private sector, hebben we
+      talloze projecten succesvol afgerond. Ons netwerk van deskundige professionals heeft
+      uitgebreide kennis van de nieuwste richtlijnen en technologieën, waardoor we op
+      maat gemaakte bewegwijzeringssystemen kunnen bieden die aan uw specifieke
+      behoeften voldoen.</p>
+
+    <div class="w3-row"><br>
+
+      <div class="w3-center">
+        <img src="Ruud Jacobs.jpg" alt="Boss" style="width:500px; max-width:100%;" class="w3-circle w3-hover-opacity">
+        <h3>Ruud Jacobs</h3>
+        <p>Verkeersconsultant</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Work Row -->
+  <style>
+    .jetypteennaam {
+      justify-content: center;
+      display: flex;
+
+      @media screen and (max-width:576px) {
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
+
+    .amateur-hour {
+      display: flex;
+    }
+  </style>
+  <div class="w3-row-padding w3-padding-64 w3-theme-l1 w3-center jetypteennaam" id="expertises">
+    <div class="w3-third amateur-hour">
+      <div class="w3-card w3-white">
+        <img src="verkeersbord_nl_d07.jpg" alt="Snow" style="width: 100px;padding: 10px;">
+        <div class="w3-container">
+          <h3 style="
+          font-weight: bold;
+      ">Consultancy</h3>
+          <p>Advies aangaande tijdelijke en permanente bewegwijzering.</p>
+          <h4>1. Ervaring en Expertise:</h4>
+          <p>Met jarenlange ervaring in de verkeersindustrie hebben we een diepgaand inzicht in bewegwijzeringstechnieken en -normen. Onze experts staan klaar om uw project tot een succes te maken.</p>
+          <h4>2. Maatwerk Oplossingen:</h4>
+          <p>Geen enkel project is hetzelfde. We begrijpen het belang van maatwerk en passen onze oplossingen aan op basis van uw specifieke behoeften, locatie en doelgroep.</p>
+          <h4>3. Kwaliteit en Betrouwbaarheid:</h4>
+          <p>Wij staan garant voor kwaliteit en betrouwbaarheid in al onze projecten. Of het nu gaat om een voetgangersbewegwijzering op een campus of om een Europese Aanbesteding voor Bewegwijzering; Buro RJ kan u kwalitatief en betrouwbaar advies geven.</p>
+          <h4>4. Klantgerichte Aanpak:</h4>
+          <p>Uw tevredenheid staat bij ons voorop. We luisteren naar uw wensen en werken nauw met u samen om een oplossing te creëren die aan al uw verwachtingen voldoet. Neem vandaag nog contact op met de Ervaren Verkeersspecialist en laat ons u helpen bij het ontwerpen en implementeren van bewegwijzeringssystemen die de verkeersstroom optimaliseren en bijdragen aan een veilige en efficiënte mobiliteit. Samen bouwen we aan een betere verkeerservaring voor iedereen.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third amateur-hour">
+      <div class="w3-card w3-white">
+        <img src="verkeersbord_nl_b01.jpg" alt="Lights" style="width: 100px;padding: 10px;">
+        <div class="w3-container">
+          <h3 style="
+          font-weight: bold;
+      ">Materiaal</h3>
+          <p>Breed assortiment aan verkeersborden, bewegwijzeringsborden en bevestigingsmateriaal.</p>
+          <h4>1. Uitgebreid Assortiment</h4>
+          <p>Van verkeersborden, wegmarkeringen en verkeersspiegels tot verkeerslichten en snelheidsremmers, we hebben alles wat u nodig heeft om de verkeersveiligheid te verbeteren en de verkeersstroom te optimaliseren.</p>
+          <h4>2. Hoogwaardige Kwaliteit</h4>
+          <p>Buro RJ kent de Nederlandse markt van verkeers- en bewegwijzeringsborden als geen ander. Belangrijk is voor ons dat wij een goed product kunnen leveren van een hoge kwaliteit.</p>
+          <h4>3. Expertise en Advies</h4>
+          <p>Onze jarenlange kennis en ervaring in de verkeersindustrie stellen ons in staat om deskundig advies te geven. We begrijpen de diverse behoeften van onze klanten en helpen hen bij het kiezen van de juiste verkeersproducten die aan hun specifieke eisen voldoen.</p>
+          <h4>4. Klantgerichtheid</h4>
+          <p>Bij Buro RJ staat de klant centraal in alles wat we doen. We streven naar uitmuntendheid in onze dienstverlening en bieden een persoonlijke aanpak die aansluit op de behoeften van onze klanten. Uw tevredenheid is onze grootste beloning.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Container -->
+  <div class="w3-container w3-padding-64 w3-center" id="contact">
+    <div class="w3-row">
+      <div class="w3-col">
+        <div class="w3-padding-16"><span class="w3-xlarge w3-bottombar" style="
+        border-color: #0074bd!important;
+    ">Contact</span></div>
+        <p>De koffie staat klaar!</p>
+        <p><i class="fa fa-map-marker w3-xlarge" style="
+        color: #0074bd!important;"></i>  Veghel</p>
+        <p><i class="fa fa-phone w3-xlarge" style="
+        color: #0074bd!important;"></i>  <a href="tel:+31636333287">06 36 33 32 87</a></p>
+        <p><i class="fa fa-envelope-o w3-xlarge" style="
+        color: #0074bd!important;"></i>  <a href="mailto:r.jacobs@kpnmail.nl">r.jacobs@kpnmail.nl</a></p>
+      </div>
+      <!-- <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Naam</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Bericht</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>Je mag contact met me opnemen naar aanleiding van dit bericht</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Verzenden</button>
+      </form>
+    </div> -->
+    </div>
+  </div>
+
+  <!-- Image of location/map -->
+  <img src="snelweg.jpg" class="w3-image w3-greyscale-min" style="width:100%;">
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-white w3-hide-small">Naar boven</span>
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+        <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+
+  <script>
+    // Script for side navigation
+    function w3_open() {
+      var x = document.getElementById("mySidebar");
+      x.style.width = "300px";
+      x.style.paddingTop = "10%";
+      x.style.display = "block";
+    }
+
+    // Close side navigation
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+
+    // Used to toggle the menu on smaller screens when clicking on the menu button
+    function openNav() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+  </script>
+
+</body>
+
+</html>
